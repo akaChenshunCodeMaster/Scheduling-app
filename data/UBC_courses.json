@@ -1,0 +1,16 @@
+[
+  {
+    "code": "CPSC",
+    "number": 210,
+    "title": "Software Construction",
+    "deadline_categories": {
+      "labs": [
+        {"name": "Lab 1",
+         "duedate_year": "2022"
+          "duedate_month": "10"
+          "duedate_date": "10"
+        }
+      ]
+    }
+  }
+]
