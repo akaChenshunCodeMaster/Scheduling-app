@@ -1,16 +1,66 @@
 [
   {
-    "code": "CPSC",
-    "number": 210,
-    "title": "Software Construction",
-    "deadline_categories": {
-      "labs": [
-        {"name": "Lab 1",
-         "duedate_year": "2022"
-          "duedate_month": "10"
-          "duedate_date": "10"
+    "code": "CPEN",
+    "number": 211,
+    "title": "Intro to microcomputers",
+    "deadline_categories": [
+      {"category": "labs",
+       "deadlines": [
+          {"name": "Lab 1",
+           "due_date": "2022.09.27"
+          },
+          
+          {
+           "name": "Lab 2",
+           "due_date": "2022.10.11"
+          },
+          {
+           "name": "Lab 3",
+           "due_date": "2022.10.25"
+          },
+          {
+            "name": "Lab 4",
+           "due_date": "2022.11.01"
+          },
+          {
+            "name": "Lab 5",
+            "due_date": "2022.11.15"
+          },
+          {
+            "name": "Lab 6",
+            "due_date": "2022.11.22"
+          },
+          {
+            "name": "Lab 7",
+            "due_date": "2022.11.29"
+          }
+        ]
+      },
+      {
+        "category": "tests",
+        "deadlines": [
+          {
+            "name": "midterm",
+            "due_date": "2022.10.18"
+          },
+          {
+            "name": "test_1",
+            "due_date": "2022.10.28"
+          },
+          {
+            "name": "test_2",
+            "due_date": "2022.11.25"
+          },
+        {
+          "name": "test_3",
+          "date": "2022.12.06"
         }
       ]
-    }
+      }
+    ]
   }
 ]
+
+
+
+

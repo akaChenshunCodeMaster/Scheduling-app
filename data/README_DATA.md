@@ -1,3 +1,9 @@
+**user_status.json** data is an **Array** of :
+- Course
+
+
+
+
 **UBC_courses.json** data is and **Array** of :
 - Course
 
@@ -17,3 +23,5 @@
 - Boolean "completed" (true, complete; false, not finished)
 - **Date** "due_date"
 - **Array** of **Date** reminders
+
+

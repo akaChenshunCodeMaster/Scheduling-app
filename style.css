@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 :root {
-  --bkg-color: #858585;
-  --primary-color: #1a23a2;
-	--secondary-color: #09E85E;
-	--secondary-color-hover: #14B86B;
-	--accent-color: #2DE1FC;
-
-	--text-color-light: #fdfdfd;
-  
+  --margin-color: #0b345b;
+  --bkg-color: #eca7a7;
+	--secondary-color: #85c0ff;
+	--secondary-color-hover: #1b75b1;
+  --text-color-light: #fdfdfd;
+	--accent-color: #ffddcc;
   --sans-serif-font-family: 'Nunito', sans-serif;
 }
 
 * {
 	margin: 0;
 	box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html, body {
@@ -24,23 +23,59 @@ html, body {
   font-family: var(--sans-serif-font-family);
 	font-size: 15px;
   background: var(--bkg-color);
+  color: var(--text-color-light);
 }
 
 heading {
   background-color: var(--primary-color);
-  font-size: 45px;
-  text-align: center;
+  font-size: 70px;
   width: width;
+  text-align: center;
   
   color: white;
 }
 
-button {
+h1 {
+  background-color: var(--primary-color);
+  font-size: 45px;
+  width: width;
+  margin: 20px auto;
+  text-align: center;
+  
+  color: white;
+}
+
+h2 {
+  background-color: var(--primary-color);
+  font-size: 45px;
+  width: width;
+  margin: 10px auto;
+  text-align: center;
+  
+  color: white;
+}
+
+.course_sector {
+  display: block;
+  width: 70%;
+  height: 40;
+  background: var(--accent-color);
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.button {
+  position: absolute;
 	border: none;
   text-align: center;
 	border-radius: 30px;
 	width: 150px;
 	height: 120px;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 	font-family: var(--sans-serif-font-family);
 	font-size: 60px;
 	transition: 0.3s;
@@ -53,9 +88,37 @@ button:hover {
   background-color: var(--secondary-color-hover);
 }
 
-input_form {
+.course-button {
+  margin-top: 20px;
+}
+
+.input_form {
   border: none;
+  margin: 30px auto;
   text-align: center;
+  font-size: 40px;
+}
+
+.label_form {
+  border: none;
+  height: 26px;
 	border-radius: 30px;
-  background: ;
+}
+
+.button_form {
+  border: none;
+  padding: 10px;
+	border-radius: 8px;
+  color: var(--text-color-light);
+  background: var(--secondary-color);
+}
+
+.button_form:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+showCourse {
+  background: #0a0606;
+	border-radius: 30px;
+  border: none;
 }

@@ -3,25 +3,25 @@
 
 <head>
   <title>Add Course</title>
+  <link rel="icon" type="image/" href="/images/approved.png">
+  <meta charset="utf-8">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <form class="input_form" onsubmit=myPrintFn(this)>
-    <label for="ccode">Course Code:</label><br>
-    <input type="text" id="ccode" name="ccode" value=""><br>
-    <label for="cnum">Course Number:</label><br>
-    <input type="text" id="cnum" name="cnum" value=""><br><br>
-    <input type="submit" value="Submit">
+  <form class="input_form" onsubmit="setCourse(this);return false">
+    <label class="input_form" for="ccode">Course Code:</label><br>
+    <input class="label_form" type="text" id="ccode" name="ccode" value=""><br>
+    <label class="input_form" for="cnum">Course Number:</label><br>
+    <input class="label_form" type="text" id="cnum" name="cnum" value=""><br><br>
+    <input type="submit" class="button_form" value="Submit" id="submitButton" accesskey="\U+23CE">
   </form>
 
-  <p id="confirm_in">sup</p>
-
-  <p></p>
-
+<a href="coursework.html">   
+  
   <br>
 </body>
 
-<script src="form_script.js"></script>
+<script src="script.js"></script>
 
 </html>
